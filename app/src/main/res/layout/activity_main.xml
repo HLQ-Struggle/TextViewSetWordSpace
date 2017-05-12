@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context="cn.hlq.textviewsetwordspace.MainActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="5dp"
+        android:background="#CCCCCC"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我是准备测试例子：一个人，只要坚持不懈，就能在别人失败的地方获得成功。对于那些深思熟虑稳步向前的人，道路并不漫长;对于那些卧薪尝胆坚韧不拔的人，荣誉并不遥远。"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#CCCCCC"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我是设置textScaleX例子：一个人，只要坚持不懈，就能在别人失败的地方获得成功。对于那些深思熟虑稳步向前的人，道路并不漫长;对于那些卧薪尝胆坚韧不拔的人，荣誉并不遥远。"
+        android:textScaleX="1.5"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#CCCCCC"/>
+
+    <cn.hlq.textviewsetwordspace.LetterSpacingTextView
+        android:id="@+id/id_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
