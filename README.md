@@ -7,6 +7,10 @@
 > 
 > 我们一起加油~笑看工作中不顺心~ 
 
+欢迎关注LZ个人公众号~ 不定期发布博文~
+
+![](https://github.com/HLQ-Struggle/MaterialDesignStudy/blob/master/image/hlq_gzh.jpg)
+
 ## 前言
 说说今天遇到的问题吧。
 
